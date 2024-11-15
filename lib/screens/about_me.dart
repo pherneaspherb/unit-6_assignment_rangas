@@ -16,8 +16,8 @@ class _About_MeState extends State<About_Me> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: Text('About Me'),
-          bottom: TabBar(
+          title: const Text('About Me'),
+          bottom: const TabBar(
             tabs: [
               Tab(icon: Icon(Icons.person), text: 'Tab 1'),
               Tab(icon: Icon(Icons.info), text: 'Tab 2'),
